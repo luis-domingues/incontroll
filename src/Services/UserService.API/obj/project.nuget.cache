@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "W1BXYrKMMGA=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\3D Trends Automation\\Desktop\\Projetos do Luís\\incontroll\\src\\Services\\UserService.API\\UserService.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\3D Trends Automation\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.5\\microsoft.aspnetcore.openapi.9.0.5.nupkg.sha512",
+    "C:\\Users\\3D Trends Automation\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
