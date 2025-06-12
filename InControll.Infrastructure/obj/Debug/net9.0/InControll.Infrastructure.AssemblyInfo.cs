@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("InControll.Domain")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("InControll.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9e3cac90a892546bf6a54520842b88e7a735919a")]
-[assembly: System.Reflection.AssemblyProductAttribute("InControll.Domain")]
-[assembly: System.Reflection.AssemblyTitleAttribute("InControll.Domain")]
+[assembly: System.Reflection.AssemblyProductAttribute("InControll.Infrastructure")]
+[assembly: System.Reflection.AssemblyTitleAttribute("InControll.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
