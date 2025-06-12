@@ -1,0 +1,12 @@
+C:\Users\3D Trends Automation\RiderProjects\incontroll\InControll.Domain\bin\Debug\net9.0\InControll.Domain.deps.json
+C:\Users\3D Trends Automation\RiderProjects\incontroll\InControll.Domain\bin\Debug\net9.0\InControll.Domain.dll
+C:\Users\3D Trends Automation\RiderProjects\incontroll\InControll.Domain\bin\Debug\net9.0\InControll.Domain.pdb
+C:\Users\3D Trends Automation\RiderProjects\incontroll\InControll.Domain\obj\Debug\net9.0\InControll.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\3D Trends Automation\RiderProjects\incontroll\InControll.Domain\obj\Debug\net9.0\InControll.Domain.AssemblyInfoInputs.cache
+C:\Users\3D Trends Automation\RiderProjects\incontroll\InControll.Domain\obj\Debug\net9.0\InControll.Domain.AssemblyInfo.cs
+C:\Users\3D Trends Automation\RiderProjects\incontroll\InControll.Domain\obj\Debug\net9.0\InControll.Domain.csproj.CoreCompileInputs.cache
+C:\Users\3D Trends Automation\RiderProjects\incontroll\InControll.Domain\obj\Debug\net9.0\InControll.Domain.sourcelink.json
+C:\Users\3D Trends Automation\RiderProjects\incontroll\InControll.Domain\obj\Debug\net9.0\InControll.Domain.dll
+C:\Users\3D Trends Automation\RiderProjects\incontroll\InControll.Domain\obj\Debug\net9.0\refint\InControll.Domain.dll
+C:\Users\3D Trends Automation\RiderProjects\incontroll\InControll.Domain\obj\Debug\net9.0\InControll.Domain.pdb
+C:\Users\3D Trends Automation\RiderProjects\incontroll\InControll.Domain\obj\Debug\net9.0\ref\InControll.Domain.dll
