@@ -1,9 +1,13 @@
-using System.ComponentModel.DataAnnotations;
 using InControll.CrossCutting;
+using MongoDB.Bson;
+using MongoDB.Bson.Serialization;
+using MongoDB.Bson.Serialization.Serializers;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddOpenApi();
+
+BsonSerializer.RegisterSerializer(new GuidSerializer(GuidRepresentation.Standard));
 
 builder.Services.AddInfrastructure(builder.Configuration);
 builder.Services.AddApplication();
@@ -42,6 +46,19 @@ app.Use(async (context, next) =>
             status = 400,
             detail = "See the errors property for details.",
             errors = errors
+        };
+        await context.Response.WriteAsJsonAsync(problemDetails);
+    }
+    catch (ApplicationException ex)
+    {
+        context.Response.StatusCode = 400;
+        context.Response.ContentType = "application/problem+json";
+        var problemDetails = new
+        {
+            type = "https://tools.ietf.org/html/rfc7807",
+            title = "Business rule violation.",
+            status = 400,
+            detail = ex.Message
         };
         await context.Response.WriteAsJsonAsync(problemDetails);
     }
