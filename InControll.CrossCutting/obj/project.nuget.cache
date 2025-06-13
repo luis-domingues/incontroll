@@ -1,12 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "PQFrbMB3M8w=",
+  "dgSpecHash": "nOg5jzVm8vE=",
   "success": true,
   "projectFilePath": "C:\\Users\\3D Trends Automation\\RiderProjects\\incontroll\\InControll.CrossCutting\\InControll.CrossCutting.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\3D Trends Automation\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\3D Trends Automation\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
     "C:\\Users\\3D Trends Automation\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
+    "C:\\Users\\3D Trends Automation\\.nuget\\packages\\fluentvalidation\\12.0.0\\fluentvalidation.12.0.0.nupkg.sha512",
+    "C:\\Users\\3D Trends Automation\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\12.0.0\\fluentvalidation.dependencyinjectionextensions.12.0.0.nupkg.sha512",
+    "C:\\Users\\3D Trends Automation\\.nuget\\packages\\mediator.abstractions\\2.1.7\\mediator.abstractions.2.1.7.nupkg.sha512",
+    "C:\\Users\\3D Trends Automation\\.nuget\\packages\\mediatr\\12.5.0\\mediatr.12.5.0.nupkg.sha512",
+    "C:\\Users\\3D Trends Automation\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\3D Trends Automation\\.nuget\\packages\\mediatr.extensions.fluentvalidation.aspnetcore\\6.0.0\\mediatr.extensions.fluentvalidation.aspnetcore.6.0.0.nupkg.sha512",
+    "C:\\Users\\3D Trends Automation\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
     "C:\\Users\\3D Trends Automation\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\3D Trends Automation\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\3D Trends Automation\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.6\\microsoft.data.sqlclient.5.1.6.nupkg.sha512",
@@ -69,5 +76,16 @@
     "C:\\Users\\3D Trends Automation\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\3D Trends Automation\\.nuget\\packages\\zstdsharp.port\\0.7.3\\zstdsharp.port.0.7.3.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package version outside of dependency constraint: MediatR.Extensions.Microsoft.DependencyInjection 11.1.0 requires MediatR (>= 11.0.0 && < 12.0.0) but version MediatR 12.5.0 was resolved.",
+      "libraryId": "MediatR",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    }
+  ]
 }
