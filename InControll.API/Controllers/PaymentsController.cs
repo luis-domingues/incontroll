@@ -1,5 +1,6 @@
 using InControll.Application;
 using InControll.Application.DTOs;
+using InControll.Application.Queries;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
@@ -32,7 +33,10 @@ public class PaymentsController : ControllerBase
     [ProducesResponseType(500)]
     public async Task<IActionResult> GetPaymentById(Guid paymentId)
     {
-        return Ok($"Endpoint GetPaymentById para o ID: {paymentId} - A ser implementado com Query.");
+        var query = new GetPaymentByIdQuery(paymentId);
+        var response = await _mediator.Send(query);
+        if (response == null) return NotFound();
+        return Ok(response);
     }
 
     [HttpPost("{paymentId:guid}/refund")]
@@ -43,6 +47,16 @@ public class PaymentsController : ControllerBase
     [ProducesResponseType(500)]
     public async Task<IActionResult> RefundPayment(Guid paymentId, [FromBody] RefundPaymentCommand command)
     {
-        return Ok($"Endpoint RefundPayment para o ID: {paymentId} - A ser implementado com Command.");
+        command.PaymentId = paymentId;
+        try
+        {
+            var response = await _mediator.Send(command);
+            return Ok(response);
+        }
+        catch (ApplicationException ex)
+        {
+            if(ex.Message.Contains("not found")) return NotFound(new {message = ex.Message});
+            return BadRequest(new {message = ex.Message});
+        }
     }
 }
