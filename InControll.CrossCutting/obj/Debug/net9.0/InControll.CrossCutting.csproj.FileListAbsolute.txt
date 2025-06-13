@@ -16,3 +16,5 @@ C:\Users\3D Trends Automation\RiderProjects\incontroll\InControll.CrossCutting\o
 C:\Users\3D Trends Automation\RiderProjects\incontroll\InControll.CrossCutting\obj\Debug\net9.0\refint\InControll.CrossCutting.dll
 C:\Users\3D Trends Automation\RiderProjects\incontroll\InControll.CrossCutting\obj\Debug\net9.0\InControll.CrossCutting.pdb
 C:\Users\3D Trends Automation\RiderProjects\incontroll\InControll.CrossCutting\obj\Debug\net9.0\ref\InControll.CrossCutting.dll
+C:\Users\3D Trends Automation\RiderProjects\incontroll\InControll.CrossCutting\bin\Debug\net9.0\InControll.Application.dll
+C:\Users\3D Trends Automation\RiderProjects\incontroll\InControll.CrossCutting\bin\Debug\net9.0\InControll.Application.pdb

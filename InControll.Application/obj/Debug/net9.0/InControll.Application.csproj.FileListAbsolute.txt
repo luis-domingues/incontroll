@@ -1,0 +1,16 @@
+C:\Users\3D Trends Automation\RiderProjects\incontroll\InControll.Application\bin\Debug\net9.0\InControll.Application.deps.json
+C:\Users\3D Trends Automation\RiderProjects\incontroll\InControll.Application\bin\Debug\net9.0\InControll.Application.dll
+C:\Users\3D Trends Automation\RiderProjects\incontroll\InControll.Application\bin\Debug\net9.0\InControll.Application.pdb
+C:\Users\3D Trends Automation\RiderProjects\incontroll\InControll.Application\bin\Debug\net9.0\InControll.Domain.dll
+C:\Users\3D Trends Automation\RiderProjects\incontroll\InControll.Application\bin\Debug\net9.0\InControll.Domain.pdb
+C:\Users\3D Trends Automation\RiderProjects\incontroll\InControll.Application\obj\Debug\net9.0\InControll.Application.csproj.AssemblyReference.cache
+C:\Users\3D Trends Automation\RiderProjects\incontroll\InControll.Application\obj\Debug\net9.0\InControll.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\3D Trends Automation\RiderProjects\incontroll\InControll.Application\obj\Debug\net9.0\InControll.Application.AssemblyInfoInputs.cache
+C:\Users\3D Trends Automation\RiderProjects\incontroll\InControll.Application\obj\Debug\net9.0\InControll.Application.AssemblyInfo.cs
+C:\Users\3D Trends Automation\RiderProjects\incontroll\InControll.Application\obj\Debug\net9.0\InControll.Application.csproj.CoreCompileInputs.cache
+C:\Users\3D Trends Automation\RiderProjects\incontroll\InControll.Application\obj\Debug\net9.0\InControll.Application.sourcelink.json
+C:\Users\3D Trends Automation\RiderProjects\incontroll\InControll.Application\obj\Debug\net9.0\InContro.C115CC10.Up2Date
+C:\Users\3D Trends Automation\RiderProjects\incontroll\InControll.Application\obj\Debug\net9.0\InControll.Application.dll
+C:\Users\3D Trends Automation\RiderProjects\incontroll\InControll.Application\obj\Debug\net9.0\refint\InControll.Application.dll
+C:\Users\3D Trends Automation\RiderProjects\incontroll\InControll.Application\obj\Debug\net9.0\InControll.Application.pdb
+C:\Users\3D Trends Automation\RiderProjects\incontroll\InControll.Application\obj\Debug\net9.0\ref\InControll.Application.dll

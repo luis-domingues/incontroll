@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("InControll.API")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("InControll.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b2099a55d87f4234dea9d80ff1d68ebf604ab0c")]
-[assembly: System.Reflection.AssemblyProductAttribute("InControll.API")]
-[assembly: System.Reflection.AssemblyTitleAttribute("InControll.API")]
+[assembly: System.Reflection.AssemblyProductAttribute("InControll.Application")]
+[assembly: System.Reflection.AssemblyTitleAttribute("InControll.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.

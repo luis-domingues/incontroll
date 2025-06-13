@@ -175,3 +175,12 @@ C:\Users\3D Trends Automation\RiderProjects\incontroll\InControll.API\bin\Debug\
 C:\Users\3D Trends Automation\RiderProjects\incontroll\InControll.API\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\3D Trends Automation\RiderProjects\incontroll\InControll.API\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\3D Trends Automation\RiderProjects\incontroll\InControll.API\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\3D Trends Automation\RiderProjects\incontroll\InControll.API\bin\Debug\net9.0\FluentValidation.dll
+C:\Users\3D Trends Automation\RiderProjects\incontroll\InControll.API\bin\Debug\net9.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\3D Trends Automation\RiderProjects\incontroll\InControll.API\bin\Debug\net9.0\Mediator.dll
+C:\Users\3D Trends Automation\RiderProjects\incontroll\InControll.API\bin\Debug\net9.0\MediatR.dll
+C:\Users\3D Trends Automation\RiderProjects\incontroll\InControll.API\bin\Debug\net9.0\MediatR.Contracts.dll
+C:\Users\3D Trends Automation\RiderProjects\incontroll\InControll.API\bin\Debug\net9.0\MediatR.Extensions.FluentValidation.AspNetCore.dll
+C:\Users\3D Trends Automation\RiderProjects\incontroll\InControll.API\bin\Debug\net9.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\3D Trends Automation\RiderProjects\incontroll\InControll.API\bin\Debug\net9.0\InControll.Application.dll
+C:\Users\3D Trends Automation\RiderProjects\incontroll\InControll.API\bin\Debug\net9.0\InControll.Application.pdb
