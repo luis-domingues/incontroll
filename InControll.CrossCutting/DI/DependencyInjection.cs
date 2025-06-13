@@ -1,7 +1,12 @@
-﻿using InControll.Domain;
+﻿using FluentValidation;
+using InControll.Application;
+using InControll.Application.Validators;
+using InControll.Domain;
 using InControll.Infrastrucuture;
 using InControll.Infrastrucuture.Data.MongoDB;
 using InControll.Infrastrucuture.Repositories;
+using MediatR;
+using MediatR.Extensions.FluentValidation.AspNetCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -29,6 +34,14 @@ public static class DependencyInjection
         });
         services.AddScoped<ITransactionLogRepository, TransactionLogRepository>();
         
+        return services;
+    }
+
+    public static IServiceCollection AddApplication(this IServiceCollection services)
+    {
+        services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(ProcessPaymentCommand).Assembly));
+        services.AddValidatorsFromAssembly(typeof(ProcessPaymentCommandValidator).Assembly);
+        services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
         return services;
     }
 }
