@@ -59,6 +59,11 @@ public class Payment
         }
     }
 
+    public void UpdateStatus(PaymentStatus newStatus)
+    {
+        Status = newStatus;
+    }
+
     private decimal CalculateRefundedAmount()
     {
         return _transactions.Where(t => t.Type == TransactionType.Refund && t.Status == TransactionStatus.Success).Sum(t => t.Amount);
