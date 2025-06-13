@@ -29,7 +29,9 @@ public static class DependencyInjection
 
             if (string.IsNullOrEmpty(connectionString)) throw new ArgumentNullException("MongoDB ConnectionString is not configured.");
             if (string.IsNullOrEmpty(databaseName)) throw new ArgumentNullException("MongoDB DatabaseName is not configured.");
-
+            
+            BsonDefaults.GuidRepresentation = GuidRepresentation.Standard;
+            
             return new MongoDbContext(connectionString, databaseName);
         });
         services.AddScoped<ITransactionLogRepository, TransactionLogRepository>();
